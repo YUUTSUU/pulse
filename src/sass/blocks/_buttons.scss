@@ -4,12 +4,17 @@
     background: $main-color;
     border-radius: 5px;
     border: none;
+    transition: 0.3s all;
+    &:hover {
+        box-shadow: 1px 1px 10px $main-color;
+    }
     font-weight: 500;
     font-size: 12px;
     line-height: 19px;
     text-align: center;
     text-transform: uppercase;
     color: $text-color;
+    
     &_main {
         width: 303px;
         height: 54px;

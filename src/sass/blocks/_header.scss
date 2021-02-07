@@ -24,9 +24,10 @@
         font-weight: 700;
         font-size: 18px;
         color: $text-color;
+        transition: 0.3s all;
         &:hover {
             text-decoration: none;
-            color: $text-color;
+            color: $main-color;
         }
     }
     &__contacts {

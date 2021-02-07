@@ -46,7 +46,7 @@
     &-item {
         width: 303px;
         min-height: 442px;
-        border: 2px solid #E8E8E8;
+        border: 2px solid $hr-color;
         padding: 20px 20px 26px 20px;
         overflow: hidden;
         margin: 8.5px 5px;
@@ -79,8 +79,9 @@
             text-decoration: underline;
             text-transform: uppercase;
             color: $main-color;
+            transition: 0.3s all;
             &:hover {
-                color: $main-color;
+                color: rgb(109, 12, 12);
             }
         }
         hr {
@@ -161,8 +162,9 @@
             text-decoration: underline;
             text-transform: uppercase;
             color: $main-color;
+            transition: 0.3s all;
             &:hover {
-                color: $main-color;
+                color: rgb(109, 12, 12);
             }
         }
     }
