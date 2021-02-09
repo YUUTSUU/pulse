@@ -1,5 +1,12 @@
+@import 'lips/bootstrap-reboot.min';
+@import 'lips/font';
+@import 'lips/slick';
+@import 'lips/animate';
+
 @import 'base/variables';
 @import 'base/media';
+@import 'base/mixins';
+
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
@@ -7,6 +14,7 @@
     max-width: 950px;
     margin: 0 auto;
 }
+
 @import 'base/animations';
 @import 'base/media';
 @import 'blocks/promo';

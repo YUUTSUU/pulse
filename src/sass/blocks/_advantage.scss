@@ -30,17 +30,16 @@
         a {
             text-decoration: underline;
             text-transform: uppercase;
+            transition: 0.3s all;
             color: $descr-color;
+            &:hover {
+                color: rgb(109, 12, 12);
+            }
         }
     }
     &__icon {
         &_animated {
             animation: heartbeat 1.5s ease infinite paused;
-            // animation-name: heartbeat;
-            // animation-duration: 1.5s;
-            // animation-timing-function: ease;
-            // animation-iteration-count: infinite;
-            // animation-play-state: paused;
             &:hover {
                 animation-play-state: running;
             }
